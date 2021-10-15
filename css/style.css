@@ -2,6 +2,7 @@
 *::after,
 *::before {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -456,7 +457,7 @@ a {
   line-height: 130%;
   max-width: 830px;
   margin: 0 auto;
-  color: rgba(255, 255, 255, .8);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .footer__info {
