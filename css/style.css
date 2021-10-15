@@ -453,11 +453,11 @@ a {
 .footer__box {
   display: flex;
   justify-content: space-between;
-  color: #fff;
   font-size: 14px;
   line-height: 130%;
   max-width: 830px;
   margin: 0 auto;
+  color: rgba(255, 255, 255, .8);
 }
 
 .footer__info {
@@ -467,35 +467,25 @@ a {
 .footer__box-title {
   margin-bottom: 7px;
   font-weight: 500;
+  color: #fff;
 }
 
 .footer__copy {
   margin-bottom: 3px;
-  opacity: 0.8;
 }
 
 .footer__link {
   text-decoration: underline;
-  opacity: 0.8;
 }
 
 .footer__address {
   width: 165px;
 }
 
-.footer__address-text {
-  opacity: 0.8;
-}
-
 .footer__contacts {
   width: 210px;
 }
 
-.footer__phone {
-  opacity: 0.8;
-}
-
 .footer__email {
-  opacity: 0.8;
   display: block;
 }
